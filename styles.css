@@ -4,18 +4,16 @@ body {
   text-align: center;
   background-color: #121a30;
   font-family: 'NTR', sans-serif;
-
 }
 
 .intro {
-position: relative;
-top: 100px;
+  position: relative;
+  top: 100px;
 }
-.intro-auburn{
+
+.intro-auburn {
   color: #ff6f5c;
 }
-
-
 
 h1 {
   font-size: 4.5rem;
@@ -31,30 +29,24 @@ h2 {
   font-size: 3rem;
   color: #64ffda;
   margin-bottom: 0;
-
 }
 
 h3 {
   color: #ff6f5c;
   font-size: 2rem;
-
 }
 
 p {
   color: lightgrey;
   font-size: 1.5rem;
-font-weight: 700;
+  font-weight: 700;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .top-container {
   position: relative;
   height: 700px
-}
-
-.middle-container {
-}
-.bottom-container {
-
 }
 
 .a-programmer {
@@ -74,6 +66,7 @@ font-weight: 700;
   height: 175px;
   width: 175px;
 }
+
 .profile {
   padding-top: 450px;
 }
@@ -91,13 +84,10 @@ font-weight: 700;
   position: relative;
 }
 
-
 .btn {
-color: #64ffda;
-
+  color: #64ffda;
 }
+
 .footer-link {
   color: #64ffda;
-
-
 }
