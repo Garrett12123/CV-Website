@@ -46,12 +46,12 @@ p {
 .top-container {
   position: relative;
   height: 500px;
-  width: 75%;
+  width: 90%;
   margin: auto;
 }
 
 .middle-container {
-  width: 75%;
+  width: 90%;
   margin: auto;
 }
 
@@ -85,8 +85,8 @@ p {
 }
 
 hr {
-width: 85%;
-border-color: #ff6f5c;
+width: 95%;
+border-color: #64ffda;
 }
 
 
