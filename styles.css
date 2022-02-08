@@ -45,7 +45,7 @@ p {
 
 .top-container {
   position: relative;
-  height: 550px
+  height: 500px
 }
 
 .middle-container {
@@ -81,14 +81,12 @@ p {
   position: relative;
   padding-top: 100px;
 }
-.triangles{
-height: 150px;
-width: 150px;
-position: relative;
-padding-top: 120px;
 
-
+hr {
+width: 85%;
+border-color: #ff6f5c;
 }
+
 
 .coding-computer {
   height: 450px;
