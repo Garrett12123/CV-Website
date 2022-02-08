@@ -8,7 +8,7 @@ body {
 
 .intro {
   position: relative;
-  top: 100px;
+  top: 150px;
 }
 
 .intro-auburn {
@@ -40,8 +40,8 @@ p {
   color: lightgrey;
   font-size: 1.5rem;
   font-weight: 700;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .top-container {
@@ -61,8 +61,8 @@ p {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 400px;
+  position: fixed;
+  right: 20px;
   height: 175px;
   width: 175px;
 }
