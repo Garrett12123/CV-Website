@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   margin-top: 0;
   color: lightgrey;
 }
@@ -38,14 +38,14 @@ h3 {
 
 p {
   color: lightgrey;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
 
 }
 
 .top-container {
   position: relative;
-  height: 700px
+  height: 550px
 }
 
 .middle-container {
@@ -76,10 +76,18 @@ p {
 }
 
 .profile-pic {
-  height: 200px;
-  width: 200px;
+  height: 275px;
+  width: 275px;
   position: relative;
   padding-top: 100px;
+}
+.triangles{
+height: 150px;
+width: 150px;
+position: relative;
+padding-top: 120px;
+
+
 }
 
 .coding-computer {
@@ -89,7 +97,6 @@ p {
 }
 
 .btn {
-
   background: #ff6f5c;
   background-image: -webkit-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -moz-linear-gradient(top, #ff6f5c, #ff6f5c);
@@ -101,10 +108,14 @@ p {
   border-radius: 14px;
   font-family: 'NTR', sans-serif;
   color: #fff5ff;
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  padding: 2px 20px 2px 20px;
   text-decoration: none;
+}
 
+.btn:hover {
+  background: #ff5542;
+  text-decoration: none;
 }
 
 .footer-link {
