@@ -40,13 +40,17 @@ p {
   color: lightgrey;
   font-size: 1.5rem;
   font-weight: 700;
-  padding-left: 150px;
-  padding-right: 150px;
+
 }
 
 .top-container {
   position: relative;
   height: 700px
+}
+
+.middle-container {
+  width: 75%;
+  margin: auto;
 }
 
 .a-programmer {
@@ -62,7 +66,7 @@ p {
 
 .top-cloud {
   position: fixed;
-  right: 20px;
+  right: 10px;
   height: 175px;
   width: 175px;
 }
@@ -85,7 +89,22 @@ p {
 }
 
 .btn {
-  color: #64ffda;
+
+  background: #ff6f5c;
+  background-image: -webkit-linear-gradient(top, #ff6f5c, #ff6f5c);
+  background-image: -moz-linear-gradient(top, #ff6f5c, #ff6f5c);
+  background-image: -ms-linear-gradient(top, #ff6f5c, #ff6f5c);
+  background-image: -o-linear-gradient(top, #ff6f5c, #ff6f5c);
+  background-image: linear-gradient(to bottom, #ff6f5c, #ff6f5c);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'NTR', sans-serif;
+  color: #fff5ff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
 }
 
 .footer-link {
