@@ -6,9 +6,17 @@ body {
   font-family: 'NTR', sans-serif;
 }
 
+#navbarText {
+
+}
+
+
 .intro {
-  position: relative;
-  top: 150px;
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+
+
 }
 
 .intro-auburn {
@@ -29,25 +37,29 @@ h2 {
   font-size: 3rem;
   color: #64ffda;
   margin-bottom: 0;
+  line-height: 3;
 }
 
 h3 {
   color: #ff6f5c;
   font-size: 2rem;
+  line-height: 2;
 }
 
 p {
   color: lightgrey;
   font-size: 1.75rem;
   font-weight: 700;
+  line-height: 1.5;
 
 }
 
 .top-container {
   position: relative;
-  height: 500px;
+  height: 300px;
   width: 90%;
-  margin: auto;
+margin: auto;
+
 }
 
 .middle-container {
@@ -59,7 +71,6 @@ p {
   font-size: 2rem;
   color: lightgrey;
   position: relative;
-  bottom: 40px;
 }
 
 .pro {
@@ -78,10 +89,9 @@ p {
 }
 
 .profile-pic {
-  height: 275px;
-  width: 275px;
-  position: relative;
-  padding-top: 100px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 50px;
 }
 
 hr {
