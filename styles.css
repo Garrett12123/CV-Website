@@ -33,6 +33,13 @@ h1 {
   color: #64ffda;
 }
 
+.coding-computer {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  margin: auto;
+}
+
 h2 {
   font-size: 3rem;
   color: #64ffda;
@@ -89,6 +96,7 @@ margin: auto;
 }
 
 .profile-pic {
+position: relative;
   height: 200px;
   width: 200px;
   margin-bottom: 50px;
@@ -100,11 +108,7 @@ border-color: #64ffda;
 }
 
 
-.coding-computer {
-  height: 450px;
-  width: 600px;
-  position: relative;
-}
+
 
 .btn {
   background: #ff6f5c;
