@@ -2,7 +2,7 @@ body {
   margin-top: 0;
   margin: 0;
   text-align: center;
-  background-color: #121a30;
+  background-color: #141414;
   font-family: 'NTR', sans-serif;
 }
 
@@ -23,6 +23,7 @@ hr {
   border: 5px solid grey !important;
   border-radius: 20px;
   margin: auto;
+  width: 100%;
 }
 
 .intro {
@@ -114,8 +115,13 @@ p {
   padding-top: 600px;
 }
 
+.contact-me {
+margin-bottom: 50px;
+
+}
+
 .btn {
-  background: #ff6f5c;
+  background: #darkgrey;
   background-image: -webkit-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -moz-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -ms-linear-gradient(top, #ff6f5c, #ff6f5c);
@@ -124,16 +130,17 @@ p {
   -webkit-border-radius: 14;
   -moz-border-radius: 14;
   border-radius: 14px;
-  font-family: 'NTR', sans-serif;
-  color: #fff5ff;
+  font-family: 'NTR', sans-serif !important;
+  color: black;
   font-size: 18px;
   padding: 2px 20px 2px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #ff5542;
+  background: darkgrey;
   text-decoration: none;
+  font-weight: 900;
 }
 
 .footer-link {
