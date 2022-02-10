@@ -6,7 +6,24 @@ body {
   font-family: 'NTR', sans-serif;
 }
 
-#navbarText {}
+.navbar {
+  font-family: 'NTR', sans-serif !important;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration:underline;
+
+}
+
+hr {
+  border: 5px solid grey !important;
+  border-radius: 20px;
+  margin: auto;
+}
 
 .intro {
   width: 90%;
@@ -37,7 +54,7 @@ h1 {
 
 .profile-pic {
   position: relative;
-  max-width: 23%;
+  max-width: 18%;
   min-width: 200px;
   margin-bottom: 50px;
 }
@@ -59,7 +76,9 @@ p {
   color: lightgrey;
   font-size: 1.75rem;
   font-weight: 700;
-  line-height: 2;
+  line-height: 1.5;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .top-container {
@@ -93,11 +112,6 @@ p {
 
 .profile {
   padding-top: 600px;
-}
-
-hr {
-  width: 95%;
-  border-color: #64ffda;
 }
 
 .btn {
