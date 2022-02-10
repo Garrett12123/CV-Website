@@ -1,3 +1,7 @@
+
+
+
+
 body {
   margin-top: 0;
   margin: 0;
@@ -29,8 +33,6 @@ h1 {
 }
 
 .coding-computer {
-  height: 450px;
-  width: 600px;
   position: relative;
   margin: auto;
 }
@@ -90,8 +92,7 @@ p {
 
 .profile-pic {
   position: relative;
-  height: 200px;
-  width: 200px;
+
   margin-bottom: 50px;
 }
 
