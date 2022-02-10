@@ -15,8 +15,7 @@ body {
 .nav-link {
   margin-left: 20px;
   margin-right: 20px;
-  text-decoration:underline;
-
+  text-decoration: underline;
 }
 
 hr {
@@ -29,7 +28,7 @@ hr {
 .intro {
   width: 90%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .intro-auburn {
@@ -49,6 +48,7 @@ h1 {
 .coding-computer {
   position: relative;
   margin: auto;
+  padding-top: 20px;
   max-width: 50%;
   min-width: 400px;
 }
@@ -57,7 +57,13 @@ h1 {
   position: relative;
   max-width: 18%;
   min-width: 200px;
-  margin-bottom: 50px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.profile {
+  padding-bottom: 60px;
+
 }
 
 h2 {
@@ -84,7 +90,6 @@ p {
 
 .top-container {
   position: relative;
-  height: 300px;
   width: 90%;
   margin: auto;
 }
@@ -92,6 +97,10 @@ p {
 .middle-container {
   width: 90%;
   margin: auto;
+}
+
+.bottom-container {
+  padding-top: 50px;
 }
 
 .a-programmer {
@@ -111,26 +120,20 @@ p {
   width: 175px;
 }
 
-.profile {
-  padding-top: 600px;
-}
-
 .contact-me {
-margin-bottom: 50px;
-
+  padding-top: 100px;
 }
 
 .btn {
-  background: #darkgrey;
   background-image: -webkit-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -moz-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -ms-linear-gradient(top, #ff6f5c, #ff6f5c);
   background-image: -o-linear-gradient(top, #ff6f5c, #ff6f5c);
-  background-image: linear-gradient(to bottom, #ff6f5c, #ff6f5c);
+  background-image: linear-gradient(top bottom, #ff6f5c, #ff6f5c);
   -webkit-border-radius: 14;
   -moz-border-radius: 14;
   border-radius: 14px;
-  font-family: 'NTR', sans-serif !important;
+  font-family: 'NTR', sans-serif ;
   color: black;
   font-size: 18px;
   padding: 2px 20px 2px 20px;
